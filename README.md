@@ -45,10 +45,10 @@ Installation
 		* `DEFAULT_COURSES_BASE_PATH` - absolute path to directory that contains course all course sites w/ out semeseter
 		* `DEFAULT_SERVER` - smtp server for sending error emails
 	3. fill in the blank values in `build.cgi` under the first `TODO`
-        	* `cmd` - absolute path to location of build_course_site.py
-        	* `erroremail` - append email address of where error messages should be sent
-        	* `sender` - append eemail address of sender
-        	* `log` - absolute path to location of build logs
+		* `cmd` - absolute path to location of build_course_site.py
+		* `erroremail` - append email address of where error messages should be sent
+		* `sender` - append eemail address of sender
+		* `log` - absolute path to location of build logs
 
 Usage
 ---

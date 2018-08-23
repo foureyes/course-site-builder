@@ -42,13 +42,13 @@ Installation
 	1. clone your repository
 	2. modify the default values in `build_course_site.py` to use the appropriate values for:
 		* `DEFAULT_STAGING_PATH` - directory that contains your cloned repo
-		* `DEFAULT_COURSES_BASE_PATH` - absolute path to directory that contains course all course sites w/ out semeseter and #
-		* `DEFAULT_SERVER` - smpt server for sending error emails
-	3. fill in the blank values in `build.cgi` under the first `TODO`:
-        	* `cmd = '' # absolute path to location of build_course_site.py`
-        	* `erroremail = '--erroremail=' # append email address of where error messages should be sent`
-        	* `sender = '--sender=' # append eemail address of sender`
-        	* `log = '--log=' # absolute path to location of build logs`
+		* `DEFAULT_COURSES_BASE_PATH` - absolute path to directory that contains course all course sites w/ out semeseter
+		* `DEFAULT_SERVER` - smtp server for sending error emails
+	3. fill in the blank values in `build.cgi` under the first `TODO`
+        	* `cmd` - absolute path to location of build_course_site.py
+        	* `erroremail` - append email address of where error messages should be sent
+        	* `sender` - append eemail address of sender
+        	* `log` - absolute path to location of build logs
 
 Usage
 ---

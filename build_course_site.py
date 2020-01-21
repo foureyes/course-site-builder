@@ -104,7 +104,7 @@ def extract_course_site_path(repo_name, courses_base_path):
 
     repo_name_parts = repo_name.split('-')
     section = repo_name_parts[SECTION_INDEX]
-    semester = repo_name_parts[SEMESTER_INDEX].replace('20', '')
+    semester = repo_name_parts[SEMESTER_INDEX].replace('20', '', 1)
     course = '{}-{}'.format(repo_name_parts[DEPT_INDEX], repo_name_parts[COURSE_INDEX]).upper()
     path = os.path.join(courses_base_path, semester, '{}-{}'.format(course, section))
     return path
